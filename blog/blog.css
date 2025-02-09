@@ -1,0 +1,88 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4E5283;
+}
+
+.filers{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #E9D985;
+}
+
+header{
+    font-family: Impact, sans-serif;
+    letter-spacing: 3px;
+}
+
+h1{
+    justify-self: center;
+}
+
+h2{
+    color: #A63446;
+}
+
+li{
+    font-size: larger;
+}
+
+li a{
+    color: #A63446;
+    text-decoration: none;
+}
+
+.nav-list{
+    display: grid;
+    grid-template-columns: 100px 100px 100px ;
+    grid-template-rows: 1fr;
+    justify-content: end;
+    justify-items: end;
+    list-style: none;
+    margin: 0 auto;
+    border-top: #E9D985;
+    border-bottom: #E9D985;
+    border-style: solid;
+    border-width: 2px;
+    border-right: none;
+    border-left: none;
+    padding: 20px;
+}
+
+.book-details{
+    justify-content: end;
+    justify-items: end;
+    line-height: 30px;
+    border-color: #E9D985;
+    border-style: solid;
+    border-left:none; border-top:none; border-bottom: none;
+    margin: 20px;
+    padding: 10px;
+}
+
+.book-content{
+    width: 100%;
+}
+
+.filters{
+    border-width: 2px;
+    border-style: solid;
+    border-color: #E9D985;
+
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.skiptocontent a{
+    position: absolute;
+    top: -40px;
+    background-color: black;
+    color: #A63446;
+    justify-self: left;
+}
+
+.skiptocontent a:focus{
+    top: 0;
+}
