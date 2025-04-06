@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe - Home</title>
+    <meta name="Author" content="Emily Titus">
+    <meta name="description" content="A collection of recipes and tips">
+    <meta name="keywords" content="food, cooking, recipes, how to, what to eat">
+    <link rel="shortcut icon" type="image/x-icon" href="./recipe_logo.png">
+    <link rel="stylesheet" href="recipies.css">
+    <script src="./recipies.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Recipes : A Collection</h1>
+        <nav>
+            <a href="./home.html">Home</a>
+            <a href="./recipies_options.html">Recipes</a>
+        </nav>
+        <img src="recipe_logo.png" alt="logo">
+    </header>
+    <main>
+        <label for="meals">Select a meal!</label>
+        <select name="meals" id="meals">
+            <option value="" selected disabled hidden></option>
+            <option value="french_toast">French Toast</option>
+            <option value="pizza">Pizza</option>
+            <option value="teriyaki">Teriyaki Chicken and Rice</option>
+        </select>
+        <div class="child">
+            <div id="image">
+                <img src="./cake.jpg" alt="Chocolate cake with strawberries on top">
+            </div>
+            <section id="text">
+                <p>Use the dropdown box on the right to select a meal!</p>
+            </section>
+        </div>
+    </main>
+</body>
+    <footer>
+        <p>&copy; 2025 Recipes: A Collection | Emily Titus</p>
+    </footer>
+</html>

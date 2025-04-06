@@ -1,0 +1,138 @@
+
+:root 
+{
+    --primary-color: #848acf;
+    --secondary-color: #90ADD0;
+    --accent1-color: #06050A;
+    --accent2-color: white;
+  
+    --heading-font: Garamond;
+    --paragraph-font: Verdana, Helvetica, sans-serif;
+  
+    --headline-color-on-white: var(
+      --primary-color
+    ); 
+    --headline-color-on-color: white; 
+    --paragraph-color-on-white: var(
+      --primary-color
+    ); 
+    --paragraph-color-on-color: white; 
+    --paragraph-background-color: var(--primary-color);
+    --nav-link-color: var(--accent1-color);
+    --nav-background-color: var(--secondary-color);
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: var(--primary-color);
+  }
+
+  
+  body 
+  {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+  }
+
+  h1
+  {
+    justify-self: center;
+    color: #848acf;
+  }
+
+  nav
+  {
+    background-color: #90ADD0;
+    text-align: right;
+    width: 100%;
+    padding: 10px;
+
+  }
+
+  a
+  {
+    font-size: large;
+    padding: 10px;
+    text-decoration: none;
+    color: #06050A;
+  }
+
+  nav a:visited {
+    color: var(--nav-link-color);
+  }
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
+
+  header img 
+  {
+    display: flex;
+    height: 50px;
+    width: auto;
+    padding: 7px;
+    justify-self: center;
+  }
+
+.hero
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    padding: 30px;
+    max-width: 100%;
+    margin: 0 auto;
+   
+}
+.hero img
+{
+    max-width: 30%;
+    height: auto;
+}
+.home
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #848acf;
+}
+.intro-text
+{
+    font-size: larger;
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
+
+.child
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #848acf;
+    margin: 15px;
+}
+
+#image 
+{
+    height: 100%;
+    align-self: center;
+}
+#image img{
+    height: 100%;
+    align-self: center;
+    padding: 10px;
+}
+footer 
+{
+    background-color: var(--secondary-color); 
+    color: #06050A;
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+    margin-top: 40px;
+}
+
+footer p 
+{
+    margin: 0;
+}
